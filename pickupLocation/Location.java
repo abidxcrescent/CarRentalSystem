@@ -8,7 +8,7 @@ public class Location {
     String state;
     String country;
 
-    Location(String address, int zipCode, String city, String state, String country) {
+    public Location(String address, int zipCode, String city, String state, String country) {
         this.address = address;
         this.zipCode = zipCode;
         this.city = city;

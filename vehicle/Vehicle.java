@@ -6,7 +6,16 @@ public class Vehicle {
 
     private int vehicleID;
     private String licensePlate;
+
+    /*
+        When creating an object of Vehicle must set vehicleType
+        Eg: Vehicle v1 = new Car();
+            Because we have created Car as a Vehicle
+            v1.setVehicleType(VehicleType.CAR);
+            must set this value.
+     */
     private VehicleType vehicleType;
+
     private String companyName;
     private String modelName;
     private int kmDriven;

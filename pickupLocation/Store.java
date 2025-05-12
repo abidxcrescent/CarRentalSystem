@@ -8,7 +8,7 @@ import vehicle.VehicleType;
 import java.util.List;
 
 public class Store {
-    int storeID;
+    private int storeID;
     VehicleInventoryManagement inventoryManagement;
     Location storeLocation;
     List<Reservation> reservations;
@@ -47,4 +47,12 @@ public class Store {
 
     //todo update reservation
 
+
+    public int getStoreID() {
+        return storeID;
+    }
+
+    public void setStoreID(int storeID) {
+        this.storeID = storeID;
+    }
 }

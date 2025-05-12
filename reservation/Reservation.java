@@ -29,9 +29,7 @@ public class Reservation {
         reservationType = ReservationType.DAILY;
         reservationStatus = ReservationStatus.SCHEDULED;
 
-
         return reservationID;
-
     }
 
     // More crud operations can be implemented
