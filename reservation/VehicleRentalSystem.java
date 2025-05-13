@@ -26,7 +26,7 @@ public class VehicleRentalSystem {
         // todo based on location, we will filter out the Store from storeList.
         return storeList.get(0);
     }
-
+    
     // todo add users, remove users, add stores, remove stores
 
 }
